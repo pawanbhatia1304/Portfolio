@@ -19,7 +19,7 @@ b {
 }
 
 u{
-  color : #fff 
+  color : #fff
 }
   body {
   font-family: 'Poppins', sans-serif;
@@ -162,17 +162,45 @@ nav .right a span {
 .skills-section .cells .cell span {
   font-size: 18px;
 }
+/* SECTION 3: Personal  */
+.personal-section h2 {
+  text-align: center;
+  font-size: 35px;
+}
 
-/* SECTION 3: Reviews */
+.container {
+  margin: 100px 0 0 200px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container img {
+  width:10%;
+  height:100%;
+  object-fit:cover ;
+  border-radius:10px ;
+  border:2px solid rgba(255, 255, 255, 0.684) ;
+  transition:all ease-in-out 0.5s;
+}
+
+.container img:hover {
+  width: 25%;
+}
+
+/* SECTION 4: Reviews */
 .reviews-section {
   padding: 0 50px;
   margin-bottom: 100px;
 }
 
 .reviews-section h2 {
+text-align: center;
   font-size: 35px;
-  margin-bottom: 30px;
 }
+
 
 .reviews-section .group {
   display: flex;
